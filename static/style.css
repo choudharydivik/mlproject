@@ -1,0 +1,137 @@
+/* General body styling for performance analysis page */
+body.performance-analysis {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* White background for the analysis page */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* Main container styling */
+.performance-analysis .container {
+    max-width: 800px; /* Set a maximum width */
+    padding: 20px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center; /* Center text within the container */
+}
+
+/* Title styling */
+.performance-analysis h1 {
+    color: #333;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Button styling */
+.performance-analysis .btn-center {
+    display: inline-block; /* Make the link behave like a button */
+    text-decoration: none; /* Remove underline */
+    background: linear-gradient(90deg, #4682B4, #1E90FF); /* Gradient background */
+    color: white;
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    text-align: center; /* Center text */
+    margin: 20px auto; /* Center the button */
+}
+
+.performance-analysis .btn-center:hover {
+    opacity: 0.8; /* Change opacity on hover */
+}
+
+/* Result section styling */
+.performance-analysis .result {
+    margin-top: 20px; /* Space above results */
+    padding: 20px;
+    background-color: #f4f4f9; /* Light background for results */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+
+/* General body styling for home.html */
+body.home {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light background to match homepage */
+}
+
+/* Centering the form section */
+.home .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    padding: 30px;
+    max-width: 400px; /* Limit width for better layout */
+    margin: auto; /* Center horizontally */
+}
+
+/* Form heading styling */
+.home .main-title {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.5rem; /* Medium size */
+    text-align: center; /* Center the heading */
+}
+
+/* Sub-title styling */
+.home .sub-title {
+    color: #666; /* Slightly lighter color */
+    margin-bottom: 20px;
+    font-size: 1.2rem; /* Medium size */
+    text-align: center; /* Center the sub-heading */
+}
+
+/* Form label styling */
+.home .form-label {
+    font-weight: bold;
+    color: #555; /* Darker color for labels */
+}
+
+/* Select box styling */
+.home .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space between inputs */
+    transition: border 0.3s ease; /* Smooth transition */
+}
+
+.home .form-control:focus {
+    border-color: #4682B4; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+.home .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #4682B4, #1E90FF); /* Button gradient */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease; /* Smooth transition */
+    width: 100%; /* Full-width button */
+}
+
+.home .btn:hover {
+    background: linear-gradient(135deg, #1E90FF, #4682B4); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Prediction result styling */
+.home h2 {
+    color: #333;
+    margin-top: 20px;
+    text-align: center; /* Center prediction result */
+    font-size: 1.5rem; /* Medium size */
+}
+
+

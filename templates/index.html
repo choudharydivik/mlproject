@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Student Performance Indicator</title>
+</head>
+<body class="performance-analysis">
+    <div class="container">
+        <div class="content">
+            <h1 class="title">Student Exam Performance Indicator</h1>
+            <a href="{{ url_for('predict_datapoint') }}" class="btn-center btn-submit">Analyze the Performance</a>
+        </div>
+    </div>
+</body>
+</html>
